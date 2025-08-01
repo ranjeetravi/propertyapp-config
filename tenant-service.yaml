@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: tenant-service
+  datasource:
+    url: jdbc:h2:mem:testdb
+    username: sa
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: update
